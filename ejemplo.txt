@@ -1,0 +1,27 @@
+enteros y decimales 10, 10.5
+y otros mas
+11.678, 13.24
+son ejemplos
+** 	Exponencial
+*, /, % 	Multiplicación, división, modulo
++, - suma y resta
+ejemplos de operadores
+< este > este = este otro !
+ejemplo de operadores relacionales
+== 	igual que
+!= 	diferente de
+< 25	menor que
+> 25	mayor que
+<= 	menor o igual que
+>= 	mayor o igual que
+
+EXPRESIONES REGULARE:
+variables validas
+
+enteros y decimales
+[\d.\d]+
+operaciones aritmeticas
+(\*\*)|[\*\/\%\+\-]
+operadores condicionales
+(\=\=)|(\!\=)|\<[\d|\w]|\<\s[\d|\w]|\>[\d|\w]|\>\s[\d|\w]|(\<\=)|(\>\=)
+Palabras reservadas
