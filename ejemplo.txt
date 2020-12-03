@@ -19,9 +19,10 @@ EXPRESIONES REGULARE:
 variables validas
 
 enteros y decimales
-[\d.\d]+
+([0-9]{1,3}$|[0-9]{1,3}\.[0-9]{1,3}$)
 operaciones aritmeticas
 (\*\*)|[\*\/\%\+\-]
 operadores condicionales
 (\=\=)|(\!\=)|\<[\d|\w]|\<\s[\d|\w]|\>[\d|\w]|\>\s[\d|\w]|(\<\=)|(\>\=)
 Palabras reservadas
+(class)|(def)|(end)|(puts)|(if)|(else)|(new)

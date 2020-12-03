@@ -44,7 +44,7 @@ class Calculadora
     
    # Hacemos un objeto y utilizamos sus atributos y metodos
    puts""
-   puts "Con numeros decimales (3.157) y (2.14)"
+   puts "Con numeros decimales"
    calc = Calculadora.new
    calc.x = 3.157
    calc.y = 2.14
@@ -54,7 +54,7 @@ class Calculadora
    calc.division
    calc.modulo
    puts""
-   puts "Con numeros enteros (6) y (3)"
+   puts "Con numeros enteros"
    calc2 = Calculadora.new
    calc2.x = 6
    calc2.y = 3
@@ -64,7 +64,7 @@ class Calculadora
    calc2.division
    calc2.modulo
    puts""
-   puts "comparacion (5) y (7)"
+   puts "comparacion"
    calc3 = Calculadora.new
    calc3.x = 5
    calc3.y = 7
